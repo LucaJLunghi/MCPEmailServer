@@ -9,9 +9,10 @@ Your task: Build and deploy an MCP server that allows an AI assistant to read un
 What you'll need to understand:
 
 The Model Context Protocol documentation, particularly how tools work as callable functions
+
 Example MCP servers to see expected patterns
+
 Gmail API setup: creating a Google Cloud project, enabling the API, configuring OAuth 2.0, and understanding scopes (gmail.readonly for reading, gmail.compose for drafts)
-What you'll need to build:
 
 ## MCP Server (Python with mcp SDK or TypeScript with @modelcontextprotocol/sdk)
 A get_unread_emails tool returning sender, subject, body/snippet, and email/thread ID
