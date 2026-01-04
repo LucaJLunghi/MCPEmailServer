@@ -15,11 +15,14 @@ What you'll need to build:
 
 ## MCP Server (Python with mcp SDK or TypeScript with @modelcontextprotocol/sdk)
 A get_unread_emails tool returning sender, subject, body/snippet, and email/thread ID
+
 A create_draft_reply tool that accepts the original email/thread ID and reply body, creating a correctly threaded draft
 
 ## Working demo with Claude Desktop
 Configure Claude Desktop to connect to your server locally
+
 Document your claude_desktop_config.json configuration
+
 Include example prompts and screenshots showing Claude reading emails and drafting replies
 
 ## GitHub repository with a README covering what the server does and how to run it locally
